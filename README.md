@@ -40,8 +40,8 @@ Aqui está a lista de exercícios disponíveis neste conjunto:
 
 Sinta-se à vontade para contribuir com mais exercícios ou melhorias neste conjunto. Basta fazer um fork do repositório, adicionar seus exercícios e enviar um pull request.
 
-A proposta dos Exercícios foi dada pelo meu Professor Isreal Marques da instituição de Ensiona FIAP.
-Caso queira acessar o PDF acesse o projeto.
+A proposta dos Exercícios foi dada pelo meu Professor Isreal Marques da instituição de Ension FIAP.
+Caso queira acessar o PDF acesse o projeto, lá estará disponível o dowload.
 
 
 Divirta-se praticando JavaScript!
