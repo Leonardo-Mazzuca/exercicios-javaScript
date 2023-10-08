@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js - exercícios </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>
+        JS - Exercícios
+    </h1>
+
+    <main>
+        <div class="container">
+            <h2>
+                Exercício 4
+            </h2>
+            <div>
+                <div class="input_box">
+                    <label for="input-peso">
+                        Digite o número de um planeta (1 a 6)
+                    </label>
+                    <input type="number"
+                    id="input-numero"
+                    name="input-numero"
+                    placeholder="6...">
+                </div>
+                <div class="input_box">
+                    <label for="input-peso">
+                        Digite o peso na Terra
+                    </label>
+                    <input type="number"
+                    id="input-peso"
+                    name="input-peso"
+                    placeholder="4.5...">
+                </div>
+
+                <button 
+                type="submit"
+                id="btn-enviar">Enviar</button>
+
+            </div>
+            <p id="peso-convertido">
+                Peso convertido para a terra: 0
+            </p>
+        </div>
+
+        <div class="container">
+            <h2>
+                Exercício 5
+            </h2>
+
+            <div>
+                <div class="input_box">
+                    <label for="saldo-medio">Insiria sua renda média: </label>
+                    <input type="number"
+                    placeholder="R$2000,00"
+                    id="saldo-medio"
+                    name="saldo-medio"
+                    >
+                </div>
+                <button id="enviar-saldo">
+                    Enviar
+                </button>
+            </div>
+            <p id="percentual-saldo">
+                Percentual de Crédito: 0.
+            </p>
+            <p id="percentual-adicionado">
+                Percentual adicionado a renda: 0.
+            </p>
+            <p id="renda-total">
+                Renda total: 0
+            </p>
+        </div>
+
+        <div class="container">
+            <h2>
+                Exercício 6
+            </h2>
+
+            <div>
+                <div class="input_box">
+                    <label for="altura">Altura: </label>
+                    <input type="number" id="altura"
+                    name="altura"
+                    placeholder="1.78...">
+                </div>
+                <div class="input_box">
+                    <label for="peso">Peso: </label>
+                    <input type="number" id="peso"
+                    name="peso"
+                    placeholder="69">
+                </div>
+                <button id="enviar-imc">
+                    Enviar
+                </button>
+            </div>
+            <p id="imc-enviado">IMC : 0</p>
+            <p id="imc-status">Classificação: ...</p>
+        </div>
+
+        <div class="container">
+            <h2>
+                Exercício 7
+            </h2>
+
+            <div>
+                <div class="input_box">
+                    <label for="mega-bytes">Digite um valor em megabytes: </label>
+                    <input type="number"
+                    placeholder="10000"
+                    id="mega-bytes"
+                    name="mega-bytes">
+                </div>
+
+                <button id="enviar-megabytes">
+                    Enviar
+                </button>
+            </div>
+            <p id="bytes-convertidos">
+                Valor convertido em Bytes: 0
+            </p>
+        </div>
+
+        <div class="container">
+            <h2>
+                Exercício 8
+            </h2>
+
+            <h4>
+                Responda com S ou N
+            </h4>
+
+            <div class="input__quest">
+                <div class="input_box">
+                    <label for="p-telefone">Telefonou para a vítima?</label>
+                    <input 
+                    type="text"
+                    id="p-telefone"
+                    name="p-telefone"
+                    placeholder="S/N"
+                    class="input-field"
+                    >
+                </div>
+
+                <div class="input_box">
+                    <label for="p-local">Esteve no local do crime?</label>
+                    <input 
+              
+                    type="text"
+                    id="p-local"
+                    name="p-local"
+                    placeholder="S/N"
+                    class="input-field"
+                    >
+                </div>
+
+                <div class="input_box">
+                    <label for="p-moraPerto">Mora perto da vítima?</label>
+                    <input 
+                    type="text"
+                    id="p-moraPerto"
+                    name="p-moraPerto"
+                    placeholder="S/N"
+                    class="input-field"
+                    >
+                </div>
+
+                <div class="input_box">
+                    <label for="p-devia">Devia para a vítima?</label>
+                    <input 
+           
+                    type="text"
+                    id="p-devia"
+                    name="p-devia"
+                    placeholder="S/N"
+                    class="input-field"
+                    >
+                </div>
+
+                <div class="input_box">
+                    <label for="p-trabalho">Já trabalhou com a vítima?</label>
+                    <input 
+             
+                    type="text"
+                    id="p-trabalho"
+                    name="p-trabalho"
+                    placeholder="S/N"
+                    class="input-field"
+                    >
+                </div>
+
+                <button id="enviar-questionario">
+                    Enviar
+                </button>
+            </div>
+            <p id="classificacao-suspeito">
+                Classificação: ...
+            </p>
+        </div>
+
+        <div class="container">
+            <h2>
+                Exercício 9
+            </h2>
+
+            <h4>
+                Insira:
+            </h4>
+
+            
+            <div class="box__input_notas">
+                <div class="input_box">
+                    <label for="nota-1">Nota da 1a° prova: </label>
+                    <input 
+                    type="number"
+                    id="nota-1"
+                    name="nota-1"
+                    placeholder="5.6"
+                    class="input-field-notas"
+                    >
+                </div>
+
+                <div class="input_box">
+                    <label for="nota-2">Nota da 2a° prova: </label>
+                    <input 
+              
+                    type="number"
+                    id="nota-2"
+                    name="nota-2"
+                    placeholder="5.6"
+                    class="input-field-notas"
+                    >
+                </div>
+
+                <div class="input_box">
+                    <label for="nota-3">Nota da 3a° prova: </label>
+                    <input 
+                    type="number"
+                    id="nota-3"
+                    name="nota-3"
+                    placeholder="5.6"
+                    class="input-field-notas"
+                    >
+                </div>
+
+                <div class="input_box">
+                    <label for="nota-4">Nota da 4a° prova: </label>
+                    <input 
+           
+                    type="number"
+                    id="nota-4"
+                    name="nota-4"
+                    placeholder="5.6"
+                    class="input-field-notas"
+                    >
+                </div>
+
+                <button id="enviar-notas">
+                    Enviar
+                </button>
+            </div>
+
+            <p id="media-final">
+                Media final: 0
+            </p>
+            <p id="conceito">
+                Conceito: ...
+            </p>
+            <p id="notas-status">
+                Status: ...
+            </p>
+        </div>
+
+        <div class="container">
+            <h2>
+                Exercício 10
+            </h2>
+            <div>
+                <div class="input_box">
+                    <label for="qntd-diaria">Digite a quantidade de diárias: </label>
+                    <input type="number"
+                    id="qntd-diaria"
+                    name="qntd-diaria"
+                    placeholder="14...">
+                </div>
+                <button id="enviar-diarias">
+                    Enviar
+                </button>
+            </div>
+            <p id="valor-servico">
+                Valor do serviço: R$0,00
+            </p>
+        </div>
+
+        <div class="container">
+            <h2>
+                Exercício 11
+            </h2>
+
+            <h4>
+                Conversor Celsius para Farenheit
+            </h4>
+            <div>
+                <div class="input_box">
+                    <label for="graus-inferior">Digite o limite inferior (Em celcius): </label>
+                    <input type="number" 
+                    id="graus-inferior"
+                    name="graus-inferior"
+                    placeholder="22...">
+                </div>
+                <div class="input_box">
+                    <label for="graus-superior">Digite o limite superior (Em celcius): </label>
+                    <input type="number" 
+                    id="graus-superior"
+                    name="graus-superior"
+                    placeholder="22...">
+                </div>
+            
+            </div>
+            <button id="enviar-graus">
+                Enviar
+            </button>
+            <p id="graus-farenheits">
+                0 C° em Farenheit: 0
+            </p>
+        </div>
+
+        <div class="container">
+            <h2>
+                Exercício 12
+            </h2>
+
+            <h4>
+                Pesquisa com 300 habitantes
+            </h4>
+            <div>
+                <p id="media-salario">
+                    Média do salário dos habitantes: 0
+                </p>
+
+                <div class="flex-config">
+
+                    <div>
+                        <h4>
+                            Menor salário
+                        </h4>
+                        <p id="menor-salario">
+                            salário: 0
+                        </p>
+                    </div>
+    
+                    <div>
+                        <h4>
+                            Maior salário
+                        </h4>
+                        <p id="maior-salario">
+                            salário: 0
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex-config-col">
+                    <div>
+                        <p id="qntd-mulheres">
+                            Quantidade de mulheres: 0
+                        </p>
+                    </div>
+                    <div>
+                        <p id="qntd-homens">
+                            Quantidade de homens: 0
+                        </p>
+                    </div>
+                </div>
+                <p id="media-idade">
+                    Média de idade: 0
+                </p>
+
+            </div>
+
+            <button id="gerar-dados-pesquisa">
+                Gerar dados
+            </button>
+
+
+        </div>
+
+        <div class="container">
+            <h2>
+                Exercício 13
+            </h2>
+            
+            <div>
+
+                <div class="input_box">
+                    <label for="numero-quadrado">Digite um número maior que 0: </label>
+                    <input 
+                    type="number"
+                    id="numero-quadrado"
+                    name="numero-quadrado"
+                    placeholder="12..."
+                    >
+                </div>
+            </div>
+
+            <h4 id="quadrado-numeros-title">
+                Quadrádo (x²) de todos os números de 0 até 0:
+            </h4>
+            <p class="pre-wrap" id="quadrado-numeros">
+                0
+            </p>
+
+            <button id="enviar-num-quadrado">Enviar</button>
+        </div>
+
+        <div class="container">
+            <h2>
+                Exercício 14
+            </h2>
+
+            <h4>
+                Números de 1 a 100:
+            </h4>
+            <p id="numeros-100">
+                0
+            </p>
+            <h4>
+                Somatória:
+            </h4>
+            <p id="somatoria">
+                0
+            </p>
+
+            <button id="visualizar-numeros">Enviar</button>
+
+
+        </div>
+
+        <div class="container">
+            <h2>
+                Exercício 15
+            </h2>
+
+            <div>
+                <div class="input_box">
+                    <label for="numeros-pares">Digite a quantidade de números pares que devem ser exibidas: </label>
+                    <input type="number"
+                    id="numeros-pares"
+                    name="numeros-pares"
+                    placeholder="9...">
+                </div>
+                <p id="numeros-pares-exibidos">
+                    0
+                </p>
+            </div>
+            <button id="enviar-num-par">
+                Enviar
+            </button>
+            
+        </div>
+
+        <div class="container">
+            <h2>
+                Exercício 16
+            </h2>
+
+            <h4>
+                Sortear Números
+            </h4>
+
+            <div class="flex-config">
+                <div>
+                    <h4>
+                        Quantidade de pares
+                    </h4>
+                    <p id="qntd-pares">
+                        0
+                    </p>
+                </div>
+
+                <div>
+                    <h4>
+                        Quantidade de ímpares
+                    </h4>
+                    <p id="qntd-impares">
+                        0
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex-config">
+                <div>
+                    <h4>
+                        Quantidade de números maiores que 500:
+                    </h4>
+                    <p id="qntd-maior-500">
+                        0
+                    </p>
+                </div>
+
+                <div>
+                    <h4>
+                        Quantidade de números menores que 500:
+                    </h4>
+                    <p id="qntd-menor-500">
+                        0
+                    </p>
+                </div>
+            </div>
+
+            <h4>
+                Quantidade sorteada entre 300 e 700:
+            </h4>
+            <p id="quantidade-sorteada">
+                0
+            </p>
+
+            <button id="gerar-numeros-verificador">
+                Enviar
+            </button>
+        </div>
+
+        <div class="container">
+            <h2>
+                Exercício 17
+            </h2>
+
+            <h4>
+                Clique para lançar o dado
+            </h4>
+
+            <button id="lancar-dado">
+                lançar
+            </button>
+
+
+            <div id="mostrador-dados-lancados">
+
+            </div>
+
+            <p id="soma-dados">
+                Soma dos números jogados: 0
+            </p>
+
+        </div>
+
+        <div class="container">
+            <h2>
+                Exercício 18
+            </h2>
+
+            <h4>
+                Clique para exibir numeros de 1 a 10 e seus respectivos Dobros
+            </h4>
+
+            <p id="conteudo-numeros">
+
+            </p>
+
+            <button id="exibir-numeros-dobro">
+                Exibir
+            </button>
+        </div>
+
+        <div class="container">
+            <h2>
+                Exercício 19
+            </h2>
+
+            <h4>
+                Clique para ver os 15 primeiros números da sequencia de Fibonacci
+            </h4>
+
+            <p id="sequencia-exibida">
+
+            </p>
+
+            <button id="exibir-sequencia">
+                Exibir
+            </button>
+
+
+        </div>
+
+        <div class="container">
+            <h2>
+                Exercício 20
+            </h2>
+
+
+            <div>
+                <h4 id="lista-num-impar-titulo">
+                    Números ímpares consecutivos após 0
+                </h4>
+                <p id="lista-num-impar">
+                    0
+                </p>
+            </div>
+
+            <button id="exibir-impares">
+                Exibir
+            </button>
+        </div>
+
+
+    </main>
+
+    <script src="./js/printaImpares.js"> </script>
+    
+
+  
+</body>
+</html>

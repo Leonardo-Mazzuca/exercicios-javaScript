@@ -1,0 +1,62 @@
+
+// ex 1
+<script src="./js/sorteador.js"></script> 
+
+// ex 2 
+<script src="./js/sortearMedia.js"></script> 
+
+//ex 3
+<script src="./js/intervalo.js"></script> 
+
+//ex 4
+<script src="./js/pesoTerra.js"></script> 
+
+//ex 5
+<script src="./js/banco.js"></script>
+
+//ex 6
+<script src="./js/imc.js"></script>
+
+//ex 7
+<script src="./js/converteBytes.js"></script>
+
+//ex 8
+<script src="./js/perguntaCrime.js"></script>
+
+//ex 9
+<script src="./js/calculaNotas.js"></script>
+
+//ex 10 
+<script src="./js/calculaDiarias.js"></script>
+
+//ex 11
+<script src="./js/converteGraus.js"></script>
+
+//ex 12
+<script src="./js/pesquisaHabitante.js"></script>
+
+//ex 13
+<script src="./js/gerarQuadradoNumero.js"></script>
+
+//ex 14
+<script src="./js/somatoria.js"></script>
+
+//ex 15
+<script src="./js/exibeNumerosPares.js"></script>
+
+//ex 16
+<script src="./js/verificadorDeNumeros.js"></script>
+
+//ex 17
+<script src="./js/lancadorDado.js"></script>
+
+//ex 18
+<script src="./js/exibirDobros.js"></script>
+
+//ex 19
+<script src="./js/sequenciaFibonacci.js"></script>
+
+//ex 20
+<script src="./js/printaImpares.js"> </script>
+
+

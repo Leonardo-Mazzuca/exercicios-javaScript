@@ -1,0 +1,9 @@
+.container__input{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #dedede;
+    padding: 1rem;
+    border-radius: 14px;
+}
+

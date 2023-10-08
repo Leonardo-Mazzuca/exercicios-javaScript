@@ -1,0 +1,74 @@
+
+@import url('./css/ex4.css');
+@import url('./css/ex5.css');
+@import url('./css/ex6.css');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+input{
+    padding: 0.5rem;
+    border: 1px solid #dedede;
+}
+
+button{
+    padding: 0.5rem;
+    border: none;
+    background: #fff;
+}
+
+.input_box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #dedede;
+    padding: 1rem;
+    border-radius: 14px;
+    margin: 3rem 0;
+    width: 50%;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+p{
+    background-color: #fff;
+    padding: 0.3rem;
+}
+
+.flex-config{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.flex-config-col{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#lancar-dado{
+    width: 15%;
+    border-radius: 50%;
+    height: 10vh;
+    margin: 0 auto;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+}
+
+#lancar-dado:hover{
+    background-color: #df143c;
+    transition: .3s ease-in-out;
+}
